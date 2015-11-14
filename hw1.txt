@@ -1,0 +1,52 @@
+Due date: Sunday 2/1/2015 @11:59pm
+
+Objective: Implement a simple processor
+
+Assignment:
+
+Finish the implementation if a simple RISC processor:
+
+- Words are 16 bits
+- Memory addresses are 16-bit wide
+- Memory is word-addressable (each word is 16 bits)
+- It has a 16 bit PC
+- It has 16 general purpose registers, each 16 bit wide
+- It has fixed width 16 bit instructions
+
+Three instructions are defined
+
+encoding              instruction             description
+
+0000iiiiiiiitttt      mov i,t                 regs[t] = i; pc + 1;
+0001aaaabbbbtttt      add a,b,t               regs[t] = regs[a] + regs[b]; pc + 1;
+0002jjjjjjjjjjjj      jmp j                   pc = j;
+
+
+Files you can change
+~~~~~~~~~~~~~~~~~~~~
+
+cpu.v contains the implementation
+
+Files to leave alone
+~~~~~~~~~~~~~~~~~~~~
+
+Makefile, test.ok, imem.hex
+
+To compile
+~~~~~~~~~~
+
+    make
+
+
+
+To run
+~~~~~~
+
+    make run
+
+Will also produce cpu.vcd which can be viewed in gtkwave
+
+To test
+~~~~~~~
+
+    make test

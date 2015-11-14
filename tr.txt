@@ -1,0 +1,68 @@
+{Symbol table level 0
+ 31903760        real  BASIC  basicdt   1          siz     8
+ 31903856     integer  BASIC  basicdt   0          siz     4
+ 31903952        char  BASIC  basicdt   2          siz     1
+ 31904048     boolean  BASIC  basicdt   3          siz     4
+ 31904144         exp  knd 5 0  typ 31904240  lvl  0  siz     0  off     0
+(FUNCTION real
+          real)
+ 31904432       trexp  knd 5 0  typ 31904528  lvl  0  siz     0  off     0
+(FUNCTION real
+          real)
+ 31904720         sin  knd 5 0  typ 31904816  lvl  0  siz     0  off     0
+(FUNCTION real
+          real)
+ 31905008         cos  knd 5 0  typ 31905104  lvl  0  siz     0  off     0
+(FUNCTION real
+          real)
+ 31905296       trsin  knd 5 0  typ 31905392  lvl  0  siz     0  off     0
+(FUNCTION real
+          real)
+ 31905584        sqrt  knd 5 0  typ 31905680  lvl  0  siz     0  off     0
+(FUNCTION real
+          real)
+ 31905872       round  knd 5 0  typ 31905968  lvl  0  siz     0  off     0
+(FUNCTION real
+          real)
+ 31906160      iround  knd 5 0  typ 31906256  lvl  0  siz     0  off     0
+(FUNCTION integer
+          real)
+ 31906448         ord  knd 5 0  typ 31906544  lvl  0  siz     0  off     0
+(FUNCTION integer
+          integer)
+ 31906736         new  knd 5 0  typ 31906832  lvl  0  siz     0  off     0
+(FUNCTION integer
+          integer)
+ 31907024       trnew  knd 5 0  typ 31907120  lvl  0  siz     0  off     0
+(FUNCTION integer
+          integer)
+ 31907312       write  knd 5 0  typ 31907408  lvl  0  siz     0  off     0
+(FUNCTION NULL
+          char)
+ 31907600     writeln  knd 5 0  typ 31907696  lvl  0  siz     0  off     0
+(FUNCTION NULL
+          char)
+ 31907888      writef  knd 5 0  typ 31907984  lvl  0  siz     0  off     0
+(FUNCTION NULL
+          real)
+ 31908176    writelnf  knd 5 0  typ 31908272  lvl  0  siz     0  off     0
+(FUNCTION NULL
+          real)
+ 31908464      writei  knd 5 0  typ 31908560  lvl  0  siz     0  off     0
+(FUNCTION NULL
+          integer)
+ 31908752    writelni  knd 5 0  typ 31908848  lvl  0  siz     0  off     0
+(FUNCTION NULL
+          integer)
+ 31909040        read  knd 5 0  typ 31909136  lvl  0  siz     0  off     0
+(FUNCTION NULL
+          NULL)
+ 31909328      readln  knd 5 0  typ 31909424  lvl  0  siz     0  off     0
+(FUNCTION NULL
+          NULL)
+ 31909616         eof  knd 5 0  typ 31909712  lvl  0  siz     0  off     0
+(FUNCTION boolean
+          NULL)
+yyparse result =        1
+ token 0  NULL
+ppexpr called with bad pointer 0
